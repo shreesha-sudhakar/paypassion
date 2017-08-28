@@ -1,0 +1,7 @@
+<?php include 'header.php';?>
+	<center>
+		<div>Quotation View</div>
+	</center>
+
+
+<?php include 'footer.php';?>

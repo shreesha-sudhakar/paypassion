@@ -1,0 +1,29 @@
+
+var z = "<div id="myCarousel" class="carousel slide" data-ride="carousel"><ol class="carousel-indicators">";
+
+for(var i=0;i<count.length;i++){
+	if(i == 0){
+		z += " <li data-target="#myCarousel" data-slide-to="0" class="active"></li>";
+	}
+	else{
+		z += "<li data-target="#myCarousel" data-slide-to="1"></li>";
+	}	
+}
+z += "</ol><div class="carousel-inner">";
+
+for(var i=0;i<count.length;i++){
+	if(i == 0){
+		z += "<div class="item active"><img src="la.jpg" alt="Los Angeles"></div>";
+	}
+	else{
+		z += "<div class="item"><img src="chicago.jpg" alt="Chicago"></div>";
+}
+
+z += "</div><a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span><span class="sr-only">Next</span></a></div>";
+  
+    
+
+    
+
+   
+  

@@ -1,0 +1,6 @@
+create table skills(
+id int not null AUTO_INCREMENT,
+skill_type varchar(255),
+skill_name varchar(255),
+skill_expertise varchar(255),
+)

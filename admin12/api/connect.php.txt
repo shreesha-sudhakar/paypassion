@@ -1,0 +1,4 @@
+<?php
+	$connect = mysqli_connect("citadelsolutions.in.mysql", "citadelsolutions_in", "citadel123", "citadelsolutions_in");
+	if (mysqli_connect_errno())  {  echo  mysqli_connect_error();  }
+?>
